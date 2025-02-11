@@ -1,3 +1,9 @@
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+  
 def func(n):
     if n <= 0:
         return False
@@ -13,6 +19,7 @@ def factorial(n):
 
     return res
 
+  
  def is_prime(n):
     if n < 2:
         return False
