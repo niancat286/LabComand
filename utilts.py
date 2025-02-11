@@ -1,3 +1,11 @@
+def func(n):
+    if n <= 0:
+        return False
+    while n % 5 == 0:
+        n //= 5
+    return n == 1
+
+
 def factorial(n):
     res = 1
     for i in range(n):
@@ -5,8 +13,7 @@ def factorial(n):
 
     return res
 
-  
-def is_prime(n):
+ def is_prime(n):
     if n < 2:
         return False
     for i in range(2, int(n**0.5) + 1):
