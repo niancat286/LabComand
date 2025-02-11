@@ -1,3 +1,10 @@
+
+from utilts import *
+print(func(12))
+print(func(14))
+print(func(17))
+
+
 from utilts import *
 
 num1 = int(input("Введіть перше число: "))
